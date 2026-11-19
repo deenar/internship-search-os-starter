@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "extraKnownMarketplaces": {
+    "mattpocock-skills": {
+      "source": {
+        "source": "git",
+        "url": "https://github.com/mattpocock/skills.git"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "mattpocock-skills@mattpocock-skills": true
+  },
+  "permissions": {
+    "allow": [
+      "Bash(command -v fnm)",
+      "Bash(command -v nvm)",
+      "Bash(fnm list *)",
+      "Bash(gh api *)",
+      "Bash(gh repo *)",
+      "Bash(git add *)",
+      "Bash(git checkout *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git commit -q -m ' *)",
+      "Bash(git fetch *)",
+      "Bash(git merge *)",
+      "Bash(git pull *)",
+      "Bash(git push *)",
+      "Bash(git rev-list *)",
+      "Bash(git stash *)",
+      "Bash(mdfind -name \"soffice\")",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(npm root *)",
+      "Bash(pip3 install *)",
+      "Bash(python3 -m unittest tests/test_manage_applications.py -v)",
+      "Skill(artifact-design)",
+      "Skill(artifact-design:*)",
+      "WebFetch(domain:api.github.com)",
+      "WebFetch(domain:app.the-trackr.com)",
+      "WebFetch(domain:claude.ai)",
+      "WebFetch(domain:en.wikipedia.org)",
+      "WebFetch(domain:finance.yahoo.com)",
+      "WebFetch(domain:job-boards.greenhouse.io)",
+      "WebFetch(domain:prosple.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "WebFetch(domain:www.brightnetwork.co.uk)",
+      "WebFetch(domain:www.efinancialcareers.co.uk)",
+      "WebFetch(domain:www.wallstreetoasis.com)",
+      "WebSearch",
+      "mcp__claude-in-chrome__javascript_tool",
+      "mcp__claude-in-chrome__navigate",
+      "mcp__claude-in-chrome__select_browser",
+      "mcp__claude-in-chrome__tabs_context_mcp"
+    ]
+  }
+}

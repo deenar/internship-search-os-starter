@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+
+# Node artefacts from one-off scripts (e.g. docx generation) — no package.json in this repo
+node_modules/
+package-lock.json
+
+# Machine/session-specific permission grants (scratchpad paths, one-off invocations).
+# Durable, reusable permissions live in the tracked .claude/settings.json instead.
+.claude/settings.local.json

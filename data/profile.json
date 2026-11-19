@@ -1,0 +1,52 @@
+{
+  "personal": {
+    "name": "Your Name",
+    "email": "you@example.com",
+    "phone": null,
+    "linkedin": "linkedin.com/in/your-handle",
+    "address": null,
+    "location": "City, UK"
+  },
+  "education": [
+    {
+      "institution": "Your University",
+      "degree": "BSc Your Subject",
+      "start_date": "2025-09",
+      "expected_graduation": "2028-06",
+      "details": [
+        "Relevant modules, grades or awards you can evidence"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "title": "Role title",
+      "organisation": "Organisation",
+      "period": "Mon YYYY – Mon YYYY",
+      "bullets": [
+        "Action-verb bullet with a real, quantified result where you have one"
+      ],
+      "skills_demonstrated": [
+        "e.g. Excel modelling"
+      ]
+    }
+  ],
+  "responsibilities_and_achievements": [
+    {
+      "title": "Society role / competition / project",
+      "organisation": "Organisation",
+      "period": "Mon YYYY – Mon YYYY",
+      "bullets": [
+        "What you did and what came of it"
+      ]
+    }
+  ],
+  "skills": {
+    "technical": [],
+    "interests": [],
+    "certifications": []
+  },
+  "notes": [
+    "Replace every placeholder above with your own real history. Skills never invent beyond this file."
+  ]
+}
